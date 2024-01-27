@@ -31,4 +31,54 @@
 -- select concat(name, ', ', country) as location from cities;
 
 -- lower or upper
-select concat(upper(name), ', ', lower(country)) as location from cities;
+-- select concat(upper(name), ', ', lower(country)) as location from cities;
+
+-- select name, area from cities where  area > 8000;
+-- equal  		=
+-- not equal 	<>
+-- greater		>
+-- greater or equal  >=
+-- smaller	<
+-- smaller or equal <=
+-- between
+-- IN
+-- not in
+-- select name from cities where
+-- area between 2000 and 4000;
+-- name in ('Delhi', 'Shanghai');
+-- name not in ('Delhi', 'Shanghai') or area > 5000;
+-- select * from phones where manufacturer in ('Samsung',  'Apple');
+
+-- select
+-- 	name,
+-- 	price * units_sold
+-- 		as  total_revenue
+-- From
+-- 	phones
+-- where
+-- 	price * units_sold > 10000;
+
+-- update
+-- 	cities
+-- set 
+-- 	population = 100000000
+-- where
+-- 	name = 'Tokyo';
+
+-- select * from cities;
+
+-- delete
+-- from
+-- 	cities
+-- where
+-- 	name = 'Tokyo';
+
+-- update
+-- 	phones
+-- set
+-- 	units_sold = 8085
+-- where
+-- 	name = 'N8';
+
+-- select * from phones;
+
