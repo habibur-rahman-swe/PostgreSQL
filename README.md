@@ -120,3 +120,5 @@ values
         WHERE ID = 1;
         ```
 
+## Day - 4
+-   Join operation(003)
